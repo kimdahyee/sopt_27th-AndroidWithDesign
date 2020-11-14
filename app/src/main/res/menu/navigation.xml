@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_product"
+        android:icon="@drawable/class_ic_navi_product"
+        android:title="작품" />
+
+    <item android:id="@+id/nav_class"
+        android:icon="@drawable/category_ic_navi_class"
+        android:title="클래스" />
+
+    <item android:id="@+id/nav_search"
+        android:icon="@drawable/class_ic_navi_search"
+        android:title="작품" />
+
+    <item android:id="@+id/nav_category"
+        android:icon="@drawable/class_ic_navi_product"
+        android:title="작품" />
+
+    <item android:id="@+id/nav_my"
+        android:icon="@drawable/class_ic_navi_product"
+        android:title="작품" />
+</menu>
