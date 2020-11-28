@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_home.view.*
 
 class HomeFragment : Fragment() {
@@ -29,6 +30,13 @@ class HomeFragment : Fragment() {
         view.product_viewpager.adapter=viewpagerAdapter
 
         view.tabLayout.setupWithViewPager(view.product_viewpager)
+
+        for (i in 0 until view.tabLayout.tabCount) {
+            val tab = (view.tabLayout.getChildAt(0) as ViewGroup).getChildAt(i)
+            val p = tab.layoutParams as ViewGroup.MarginLayoutParams
+            p.setMargins(Utils.dpToPx(8), 0, Utils.dpToPx(8), 0)
+            tab.requestLayout()
+        }
 
         view.tabLayout.apply{
             getTabAt(0)?.text="인기 작품"
