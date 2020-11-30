@@ -1,25 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
 
     <style name="class_top_tab" parent="@android:style/TextAppearance.Widget.TabWidget">
         <item name="android:fontFamily">@font/notosans_regular</item>
-        <item name="android:textSize">17dp</item>
+        <item name="android:textSize">17sp</item>
         <item name="android:fontStyle">normal</item>
 
     </style>
 
     <style name="class_btm_tab" parent="@android:style/TextAppearance.Widget.TabWidget">
         <item name="android:fontFamily">@font/notosans_regular</item>
-        <item name="android:textSize">13dp</item>
+        <item name="android:textSize">13sp</item>
         <item name="android:fontStyle">normal</item>
 
     </style>
-
-
 </resources>
