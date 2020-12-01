@@ -20,4 +20,5 @@
     <item android:id="@+id/nav_my"
         android:icon="@drawable/mypage_ic_navi_my_selected"
         android:title="내정보" />
+
 </menu>
