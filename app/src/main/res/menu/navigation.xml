@@ -2,22 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/nav_product"
-        android:icon="@drawable/class_ic_navi_product"
+        android:icon="@drawable/mypage_ic_navi_product"
         android:title="작품" />
 
     <item android:id="@+id/nav_class"
-        android:icon="@drawable/category_ic_navi_class"
+        android:icon="@drawable/mypage_ic_navi_class"
         android:title="클래스" />
 
     <item android:id="@+id/nav_search"
-        android:icon="@drawable/class_ic_navi_search"
-        android:title="작품" />
+        android:icon="@drawable/mypage_ic_navi_search"
+        android:title="검색" />
 
     <item android:id="@+id/nav_category"
-        android:icon="@drawable/class_ic_navi_product"
-        android:title="작품" />
+        android:icon="@drawable/mypage_ic_navi_category"
+        android:title="카테고리" />
 
     <item android:id="@+id/nav_my"
-        android:icon="@drawable/class_ic_navi_product"
-        android:title="작품" />
+        android:icon="@drawable/mypage_ic_navi_my_selected"
+        android:title="내정보" />
+
 </menu>
