@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -72,9 +70,19 @@
         android:textColor="#000000"
         app:layout_constraintTop_toTopOf="@id/class_rcv_dc_rate"
         app:layout_constraintStart_toEndOf="@id/class_rcv_dc_rate"
-        android:layout_marginStart="3dp"/>
+        android:layout_marginStart="3dp" />
+
+    <Button
+        android:id="@+id/class_rcv_star_btn"
+        android:layout_width="19dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/class_rcv_star_button"
+        app:layout_constraintEnd_toEndOf="@id/class_rcv_image"
+        app:layout_constraintTop_toTopOf="@id/class_rcv_image" />
 
 
- />
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
