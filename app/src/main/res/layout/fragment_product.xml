@@ -37,7 +37,7 @@
             android:background="@drawable/main_btn_searchbar"
             android:layout_height="38dp">
 
-            <TextView
+            <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/notosans_midium"
@@ -47,7 +47,7 @@
                 android:layout_marginTop="9dp"
                 android:textColor="#bebec0"
                 android:background="@drawable/main_btn_searchbar"
-                tools:text="작품, 작가 검색"/>
+                tools:hint="작품, 작가 검색"/>
 
             <ImageView
                 android:layout_width="19dp"
@@ -67,6 +67,7 @@
         android:layout_height="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:tabTextAppearance="@style/class_top_tab"
         app:layout_constraintTop_toBottomOf="@+id/top_logo"
         app:tabIndicatorColor="#cd6055"
         app:tabSelectedTextColor="#CD6055"/>
