@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-class ClassRcvAdapter (private val context : Context) : RecyclerView.Adapter<ClassRcvViewHolder>(){
+class ClassRcvAdapter(private val context: Context) : RecyclerView.Adapter<ClassRcvViewHolder>() {
     var data = listOf<ClassRcvData>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClassRcvViewHolder {
