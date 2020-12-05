@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="class_top_tab" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/notosans_regular</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontStyle">normal</item>
+
+    </style>
+
+    <style name="class_btm_tab" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/notosans_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontStyle">normal</item>
+
+    </style>
+</resources>
