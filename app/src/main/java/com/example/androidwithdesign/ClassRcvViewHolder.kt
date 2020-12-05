@@ -19,4 +19,5 @@ class ClassRcvViewHolder (itemView : View) : RecyclerView.ViewHolder(itemView){
         discount.text = data.discount
         price.text = data.price
     }
+
 }
