@@ -36,14 +36,14 @@ class HomeFragment : Fragment() {
         for (i in 0 until view.tabLayout.tabCount) {
             val tab = (view.tabLayout.getChildAt(0) as ViewGroup).getChildAt(i)
             val p = tab.layoutParams as ViewGroup.MarginLayoutParams
-            p.setMargins(Utils.dpToPx(9), 0, 0, 0)
+            p.setMargins(4, 0, 4, 0)
         }
 
         view.tabLayout.apply{
-            getTabAt(0)?.text="인기작품"
-            getTabAt(1)?.text="최신작품"
-            getTabAt(2)?.text="인기후기"
-            getTabAt(3)?.text="작가추천"
+            getTabAt(0)?.text="인기 작품"
+            getTabAt(1)?.text="최신 작품"
+            getTabAt(2)?.text="인기 후기"
+            getTabAt(3)?.text="작가 추천"
         }
 
         return view
